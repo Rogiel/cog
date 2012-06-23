@@ -1,0 +1,16 @@
+syntax: glob
+
+# Files that can appear anywhere in the tree.
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.bak
+.coverage
+
+# Stuff in the root.
+build
+dist
+htmlcov
+MANIFEST
+setuptools-*.egg
